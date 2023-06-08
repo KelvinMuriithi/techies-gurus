@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moringa School</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+        <p id="submitmsg"></p>
+        <span>This is  span.</span>
+        <h1>This is heading one</h1>
+        <form  class="form" id="form-input" action="" method="post">
+            <label> Full name</label>
+            <input type="text" name="fullname" id="fname" placeholder="Fullname" required>
+            <label for="phonenumber"> Phone Number</label>
+            <input type="number" name="phone_no" id="phonenumber" placeholder="0722....." required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password"> Password</label>
+            <input type="password" name="password" id="pword" required>
+            <label for="password"> Confirm Password</label>
+            <input type="password" name="password" id="pword" required>
+            <button onclick="document.querySelector('#submitmsg').innerHTML='Form submited successfully';">
+                Register</button>
+        </form>
+        
+    </body>
+</html>
